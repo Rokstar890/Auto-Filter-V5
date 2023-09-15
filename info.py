@@ -51,11 +51,11 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001655979269))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001896066430))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/+KEUXcl2WUT02MzA1')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Netflixvilla_india/46')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', '')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001394587233))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001394587233))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', ))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
