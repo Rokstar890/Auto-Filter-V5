@@ -42,13 +42,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/netflixrequstgroup1')
+GRP_LNK = environ.get('GRP_LNK', '')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+KEUXcl2WUT02MzA1')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/netflixrequstgroup1')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001655979269))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP',))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001896066430))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/+KEUXcl2WUT02MzA1')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', '')
