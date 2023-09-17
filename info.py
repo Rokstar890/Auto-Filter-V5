@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23762978'))
 API_HASH = environ.get('API_HASH', 'eff30dac5504a8660e69bfe19f668571')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6686437724:AAEd2HCxSC5otL5-XS3NuRtQ2nhVG63V5vE")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6038631038:AAHMeVT79O4emd6GDrOeVacD_kLICIEZwL4")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -31,7 +31,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001896066430').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('-1001394587233')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -44,7 +44,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', '')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+KEUXcl2WUT02MzA1')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/netflixrequstgroup1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+1bHlq4X5_OAwZjVl')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
@@ -54,7 +54,7 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/+KEUXcl2WUT02MzA1')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', '')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ))
+LOG_CHANNEL = int(environ.get('-1001940288450', ))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', ))
 
 # Bot Options
